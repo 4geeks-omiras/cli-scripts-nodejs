@@ -20,7 +20,7 @@ function nicknameGenerator(name){
     //* si la tercera letra es vocal, devover las primeras 4 letras*//
 
     if (vocales.includes(terceraletra.toLowerCase())){
-        return name.slide(0, 4);
+        return name.slice(0, 4);
     }
 
 //* si la tercera letra no es vocal, devolver las 3 primeras letras*//
